@@ -1,0 +1,699 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ontodm.com/OntoDM-metaFeatures/"
+     xml:base="http://www.ontodm.com/OntoDM-metaFeatures/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.ontodm.com/OntoDM-metaFeatures/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
+        <rdfs:label xml:lang="en">has quality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000000 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000000">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">NumOfTotal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000001 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000001">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">DefaultAccuracy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000004 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000004">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">TotalDistinctClasses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000005 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000005">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">UnseenInTrain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000006 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000006">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">RatioTrainToPower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000007 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000007">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">RatioTestToPower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000008 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000008">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">RatioTotalToPower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000009 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000009">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">RatioUnseenToTest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000010 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000010">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000066"/>
+        <rdfs:label xml:lang="en">Attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000011 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000011">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000066"/>
+        <rdfs:label xml:lang="en">Distinct labelsets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000012 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000012">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000066"/>
+        <rdfs:label xml:lang="en">Instances</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000013 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000013">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000066"/>
+        <rdfs:label xml:lang="en">Labels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000014 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000014">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000066"/>
+        <rdfs:label xml:lang="en">LxIxF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000015 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000015">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000066"/>
+        <rdfs:label xml:lang="en">Ratio of number of instances to the number of attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000016 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000016">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000067"/>
+        <rdfs:label xml:lang="en">Cardinality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000017 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000017">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000067"/>
+        <rdfs:label xml:lang="en">Density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000018 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000018">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000067"/>
+        <rdfs:label xml:lang="en">Maximal entropy of labels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000019 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000019">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000067"/>
+        <rdfs:label xml:lang="en">Mean of entropies of labels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000020 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000020">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000067"/>
+        <rdfs:label xml:lang="en">Minimal entropy of labels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000021 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000021">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000067"/>
+        <rdfs:label xml:lang="en">Standard deviation of label cardinality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000022 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000022">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">CVIR inter class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000023 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000023">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Kurtosis cardinality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000024 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000024">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Max IR inter class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000025 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000025">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Max IR intra class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000026 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000026">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Max IR per labelset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000027 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000027">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Mean of IR inter class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000028 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000028">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Mean of IR intra class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000029 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000029">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Mean of IR per labelset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000030 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000030">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Mean of standard deviation of IR intra class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000031 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000031">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Proportion of maxim label combination (PMax)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000032 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000032">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Proportion of unique label combination (PUniq)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000033 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000033">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070"/>
+        <rdfs:label xml:lang="en">Skewness cardinality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000034 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000034">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Average examples per labelset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000035 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000035">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Bound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000036 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000036">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Diversity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000037 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000037">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Number of labelsets up to 10 examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000038 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000038">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Number of labelsets up to 2 examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000039 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000039">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Number of labelsets up to 50 examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000040 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000040">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Number of labelsets up to 5 examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000041 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000041">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Mean examples per labelset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000042 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000042">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Number of unconditionally dependent label pairs by chi-square test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000043 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000043">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Proportion of distinct labelsets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000044 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000044">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Ratio of number of labelsets up to 10 examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000045 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000045">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Ratio of number of labelsets up to 2 examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000046 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000046">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Ratio of number of labelsets up to 50 examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000047 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000047">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Ratio of number of labelsets up to 5 examples</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000048 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000048">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Ratio of unconditionally dependent label pairs by chi-square test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000049 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000049">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">SCUMBLE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000050 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000050">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Standard deviation of examples per labelset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000051 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000051">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069"/>
+        <rdfs:label xml:lang="en">Number of unique labelsets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000052 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000052">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Average absolute correlation between numeric attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000053 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000053">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Average gain ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000054 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000054">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Number of binary attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000055 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000055">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Mean of entropies of nominal attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000056 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000056">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Mean of kurtosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000057 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000057">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Mean of mean of numeric attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000058 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000058">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Mean of skewness of numeric attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000059 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000059">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Mean of standard deviation of numeric attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000060 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000060">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Number of nominal attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000061 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000061">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Number of numeric attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000062 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000062">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Proportion of binary attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000063 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000063">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Proportion of nominal attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000064 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000064">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Proportion of numeric attributes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000065 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000065">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068"/>
+        <rdfs:label xml:lang="en">Proportion of numeric attributes with outliers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000066 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000066">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">DimensionalityMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000067 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000067">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">LabelsDistributionMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000068">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">AttributesMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000069">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">LabelsRelationMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OntoDM-metaFeatures_000070">
+        <rdfs:subClassOf rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+        <rdfs:label xml:lang="en">ImbalanceMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic -->
+
+    <owl:Class rdf:about="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Characteristic"/>
+        <rdfs:label xml:lang="en">DMOP:DataChatacteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Characteristic -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Characteristic">
+        <rdfs:subClassOf rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-quality"/>
+        <rdfs:label xml:lang="en">DMOP:Characteristic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-quality -->
+
+    <owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-quality">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:label xml:lang="en">DOLCE:abstract-quality</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

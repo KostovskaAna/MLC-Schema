@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT" uri="file:/Users/anakostovska/Dropbox/OntoDM-Ana-Version/ontodt/OntoDT.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT/DMtypes" uri="file:/Users/anakostovska/Dropbox/OntoDM-Ana-Version/ontodt/OntoDT_DMtypes.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT/DMtypes" uri="file:/C:/Users/ana/Desktop/OntoDM-Ana-Version/ontodt/OntoDT_DMtypes.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT" uri="file:/C:/Users/ana/Desktop/OntoDM-Ana-Version/ontodt/OntoDT.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/pance/ontologies/2019/5/Forest" uri="file:/C:/Users/ana/Google%20Drive/Forestry/Forest.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT" uri="file:/C:/Users/ana/Desktop/OntoDM-extended/ontodt/OntoDT.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT/DMtypes" uri="file:/C:/Users/ana/Desktop/OntoDM-extended/ontodt/OntoDT_DMtypes.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDM-metaFeatures/" uri="OntoDM-metaFeaturesMerged.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT/DMtypes" uri="file:/C:/Users/ana/Google%20Drive/DS-ontologies/ontodt/development_version/DMTypes/OntoDT_DMtypes.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT" uri="file:/C:/Users/ana/Google%20Drive/DS-ontologies/ontodt/development_version/OntoDT.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT/DMtypes" uri="file:/C:/Users/ana/Desktop/DS-ontologies/ontodt/development_version/DMTypes/OntoDT_DMtypes.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT" uri="file:/C:/Users/ana/Desktop/DS-ontologies/ontodt/development_version/OntoDT.owl"/>
+    <uri id="User Entered Import Resolution" name="file:/C:/Users/ana/Desktop/Annotations.rdf" uri="file:/C:/Users/ana/Desktop/DS/Annotations.rdf"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontodm.com/OntoDT" uri="file:/C:/Users/ana/Desktop/DS/ontodt/development_version/OntoDT.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontodm.com/OntoDT/DMtypes" uri="file:/C:/Users/ana/Desktop/DS/ontodt/development_version/DMTypes/OntoDT_DMtypes.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontodm.com/OntoDT/DMtypes" uri="file:/C:/Users/ana/Desktop/DS/ontodt/development_version/OntoDT.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1690290964835" name="http://kt.ijs.si/panovp/OntoDM/OntoDMUseCase1.owl" uri="OntoDMUseCase1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1690290964835" name="http://kt.ijs.si/panovp/OntoDM/external.owl" uri="external.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1690290964835" name="http://kt.ijs.si/panovp/OntoDM/external_OBI.owl" uri="external_OBI.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1690290964835" name="http://www.ontodm.com/OntoDM-core/" uri="OntoDM.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1690290964835" name="http://www.ontodm.com/OntoDM-metaFeatures/" uri="OntoDM-metaFeaturesMerged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1690290964835" name="http://www.ontodm.com/clus/" uri="clus_instances.owl"/>
+    </group>
+</catalog>
